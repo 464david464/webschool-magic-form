@@ -29,7 +29,7 @@ function login() {
   }
 
   if(! checkDetails(userName, password)) {
-      document.querySelector('#error').style.display = 'block';
+      document.querySelector('#error').style.display = 'flex';
       return;
   }
 
