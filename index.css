@@ -6,7 +6,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-items: center;
-
+    align-items: center;
     width: 50%;
     margin: auto;
 
@@ -17,21 +17,50 @@ h1 {
     margin: 10px;
 }
 
+button{
+    margin: auto;
+    height: 30px;
+    width: 300px;
+}
+
 #div-login>input {
-    height: 50px;
+    height: 30px;
+    width: 95%;
 }
 
 #div-success {
     margin: auto;
-    padding: 25px;
-    display: flex;
+    padding: 10px 0px;
+    margin-top: 30px;
+    display: none;
+    flex-direction: column;
     justify-content: center;
-
+    align-items: center;
     width: 50%;
 
     border: 1px black solid;
 }
 
-#div-success>img {
-    max-width: 500px
+#div-success img {
+    margin: auto;
+    max-width: 50%
+}
+
+#error{
+    text-align: center;
+    display: none;
+    justify-content: center;
+    align-self: center;
+    width: 95%;
+    height: 100px;
+    background-color: rgba(255, 73, 73, 0.493);
+    border-radius: 6px;
+    color: rgb(53, 53, 53);
+    border: 1px black solid;
+    font-size: 18px;
+}
+
+.redBorder{
+    box-shadow: 0px 0px 3px 1px red;
+    border: 1px red solid;
 }
